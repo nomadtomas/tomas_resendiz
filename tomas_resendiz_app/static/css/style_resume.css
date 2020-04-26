@@ -11,7 +11,7 @@
 
 body{
   background: #e7f1ff;
-  background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(../image/background.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(../image/background.JPG);
   background-size: cover;
   background-attachment: fixed;
   font-size: 14px;
