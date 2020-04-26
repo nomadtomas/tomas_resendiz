@@ -1,0 +1,1 @@
+web: gunicorn tomas_resendiz_app.app:app

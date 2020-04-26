@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Trade+Winds&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+body{
+  background: #e7f1ff;
+  background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(../image/office.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 14px;
+  color: #485d6d;
+  letter-spacing: 1px;
+}
+
+/* ------ lines ------ */
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  height:2px;
+  width:50%;
+  text-align:left;
+  margin-left:0;
+  border-width:0;
+  color:gray;
+  background-color:gray
+} 
+
+/* ------ wrapper ------ */
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .resume{
+  width: 450px;
+  margin: 5px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125), -1px -1px 2px rgba(0,0,0,0.125);
+}
+
+/* ------ resume ------ */
+.resume .profile_info {
+  background-image: url(../image/desk.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.resume .profile_info .profile_img {
+  width: 100px;
+  margin: 0 auto 5px;
+}
+
+.resume .profile_info .profile_img img {
+  width: 100%;
+  display: block;
+}
+
+.resume .profile_info .profile_data .name {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: 'Trade Winds';
+  color: #c9cfd4;
+}
+
+.resume .profile_info .profile_data span {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #a8a8a8;
+}
+
+.resume .title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2a84d8;
+    margin-bottom: 15px;
+}
+
+/* ------ tabs ------ */
+.full_info_wrap .tabs ul{
+  display: flex;
+  width: 100%;
+  height: 36px;
+  border: 1px solid #dfe4e6;
+  border-radius: 3px;
+}
+
+.full_info_wrap .tabs ul li{
+  padding: 10px 15px;
+  width: 33.34%;
+  height: 34px;
+  text-align: center;
+  border-right: 1px solid #dfe4e6;
+  background: #f2f4f5;
+  color: #a0acb5;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.full_info_wrap .tabs ul li:last-child{
+  border-right: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.full_info_wrap .tabs ul li.active,
+.full_info_wrap .tabs ul li:hover{
+  background: #fff;
+  color: #2a84d8;
+}
+
+.full_info{
+  padding-top: 15px;
+  height: 295px;
+  overflow: auto;
+}
+
+/* ------ info ------ */
+.info_wrap{
+  padding-left: 5px;
+}
+
+.info_wrap ul li{
+  margin-bottom: 10px;
+}
+
+.info_wrap ul li:last-child{
+  margin-bottom: 0;
+}
+
+.info_wrap .sub_title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #2a84d8;
+}
+
+.info_wrap .info_item{
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.info_wrap .info_item .info_title{
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info_wrap .info_item .data{
+  font-size: 12px;
+}
+
+/* ------ contact ------ */
+.contact .info_wrap ul li span{
+  display: inline-block;
+}
+
+.contact .info_wrap ul li span.info_q{
+  width: 150px;
+}
+
+.contact .info_wrap ul li span.info_a{
+  font-weight: 600;
+}
