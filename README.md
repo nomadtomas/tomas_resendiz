@@ -6,7 +6,7 @@ https://tomas-resendiz.herokuapp.com/
 
 ## Technologies Used
 <p align="center">
-  <img src="images/logos.png" width=70%>
+  <img src="tomas_resendiz_app/static/images/logos.png" width=70%>
 </p> 
 
 Flask, HTLM, CSS, JS, Bootstrap
