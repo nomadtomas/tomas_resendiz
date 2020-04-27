@@ -3,3 +3,10 @@ Experienced Statistician with a demonstrated history of working both in public a
 
 ## Website:
 https://tomas-resendiz.herokuapp.com/
+
+## Technologies Used
+<p align="center">
+  <img src="images/logos.png" width=70%>
+</p> 
+
+Flask, HTLM, CSS, JS, Bootstrap
