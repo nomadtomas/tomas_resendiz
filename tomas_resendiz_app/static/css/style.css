@@ -73,6 +73,7 @@
 #about {
     padding-top: 60px;
     padding-bottom: 50px;
+    height: 90vh;
     color: #555;
 }
 
@@ -81,13 +82,13 @@
 }
 
 .img-response {
-    height: 450px;
-    width: 450px;
+    height: 480px;
+    width: 480px;
 }
 
 #about .fab {
-    height: 38px;
-    width: 38px;
+    height: 45px;
+    width: 45px;
     color: #007bff !important;
     background:#fff;
     padding: 2px;
